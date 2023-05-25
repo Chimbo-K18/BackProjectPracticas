@@ -25,7 +25,7 @@ import javax.sql.DataSource;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperReport;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://159.89.49.235:3000", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/documentoConvenio")
 public class Documento_ConvenioController {

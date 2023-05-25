@@ -17,7 +17,7 @@ import java.util.Base64;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://159.89.49.235:3000", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/documentoConvocatoria")
 public class Documento_ConvocatoriaController {

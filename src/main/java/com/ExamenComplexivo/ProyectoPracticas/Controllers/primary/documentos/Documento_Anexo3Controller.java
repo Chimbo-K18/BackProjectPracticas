@@ -13,7 +13,7 @@ import java.io.IOException;
 
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://159.89.49.235:3000", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/documentoAnexo3")
 public class Documento_Anexo3Controller {

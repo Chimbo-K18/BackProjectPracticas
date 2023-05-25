@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://159.89.49.235:3000", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/imagen")
 public class ImagenController {
