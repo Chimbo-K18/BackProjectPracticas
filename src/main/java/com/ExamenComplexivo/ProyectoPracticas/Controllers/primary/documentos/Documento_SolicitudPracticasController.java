@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 import java.util.*;
 
-@CrossOrigin(origins = "http://159.89.49.235:3000", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/documentoSolicitudPracticas")
 

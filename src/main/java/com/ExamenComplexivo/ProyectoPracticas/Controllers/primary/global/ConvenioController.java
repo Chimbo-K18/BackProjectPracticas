@@ -18,7 +18,7 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.util.List;
 
-@CrossOrigin(origins = "http://159.89.49.235:3000", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/convenio")
 public class ConvenioController {
