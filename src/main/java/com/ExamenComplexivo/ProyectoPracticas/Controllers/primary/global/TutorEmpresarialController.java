@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://134.209.214.217:3000", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/tutorEmp")
 public class TutorEmpresarialController {

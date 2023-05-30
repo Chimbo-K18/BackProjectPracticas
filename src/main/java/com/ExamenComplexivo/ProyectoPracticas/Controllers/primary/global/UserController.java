@@ -23,7 +23,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://134.209.214.217:3000", maxAge = 3600, allowCredentials="true")
 
 @RestController
 @RequestMapping("/api/user")
@@ -41,6 +41,7 @@ public class UserController {
     private RolRepositoryDao rolrepo;
     @Autowired
     private UsuariosRepositoryDao usuariosDao;
+
 
     @GetMapping("/all")
     public ResponseEntity<List<Usuario>> getUsuarios(){

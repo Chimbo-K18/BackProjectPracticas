@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Base64;
 import java.util.Optional;
 
-@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://134.209.214.217:3000", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/documentoOficioPreseleccion")
 public class Documento_OficioPreseleccionController {
